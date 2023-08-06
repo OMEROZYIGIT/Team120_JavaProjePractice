@@ -11,6 +11,7 @@ public class Q2 {
     Düz metindeki her harfin, alfabeden belirli bir sayı ileride konumlu olan bir harfle değiştirildiği bir şifreleme türüdür.
     //hello ----> ıfmmp --->1 birim kaydırılmış hali
      */
+
     public static void main(String[] args) {
         System.out.print("Şifrelenecek metni giriniz: ");
         Scanner scan = new Scanner(System.in);
