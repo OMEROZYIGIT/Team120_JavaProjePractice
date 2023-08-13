@@ -29,12 +29,18 @@ public class KahveMakinesi {
                     konsola şunu yazdırın örnek :
         Türk Kahvesi orta boy hazırdır. Afiyet olsun !!!
      */
+
+
     static String kahveCesidi = "", sut = "", seker = "", kahveBoyutu = "";
     static int sekerMiktari;
     static Scanner scan = new Scanner(System.in);
 
-    static void menu() {
+
+    // menu isminde method oluşturuldu.
+     static void menu() {
+
         System.out.println("*******GAHVECİYE HOŞGELDİNİZ*******");
+
         do {
             System.out.print("******MENU******\n" +
                     "Türk Kahvesi\n" +
