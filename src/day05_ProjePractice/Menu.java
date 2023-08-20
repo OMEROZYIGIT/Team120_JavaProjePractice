@@ -6,12 +6,15 @@ public class Menu {
     static Scanner scan = new Scanner(System.in);
 
     static void menu() {
+        System.out.println("=======================================");
         System.out.print("ŞEÇMEK İSTEDİĞİNİZ GEOMETRİK ŞEKLİ GİRİNİZ:\n" +
                         "1. ÇEMBER\n" +
                         "2. DİKDÖRTGEN\n" +
                         "3. KARE\n" +
                         "4. ÇIKIŞ\n" +
+                        "==========================\n"+
                         "SEÇİMİNİZ: ");
+
 
         int secim = scan.nextInt();
         switch (secim) {
