@@ -16,6 +16,7 @@ public class Menu {
                         "SEÇİMİNİZ: ");
 
 
+
         int secim = scan.nextInt();
         switch (secim) {
             case 1: {
